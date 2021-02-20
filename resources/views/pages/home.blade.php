@@ -19,8 +19,8 @@
                                     </button>
                                 </a>
                                 <a href="https://www.buymeacoffee.com/csbarron" class="block my-1" target="_blank">
-                                    <button>
-                                        <img style="height:50px;"  src="/img/default-yellow.png" alt="Buy Me A Coffee"/>
+                                    <button style="height:50px;">
+                                        <img style="max-height:50px;"  src="/img/default-yellow.png" alt="Buy Me A Coffee"/>
                                     </button>
 
                                 </a>
