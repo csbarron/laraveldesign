@@ -1,3 +1,1 @@
-Stuff about the likes package:
-
-located at views/packages/likes.blade.php
+<p>This package provides your users with an interactive like system.  The likes can be attached to any Laravel model.</p>

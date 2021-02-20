@@ -27,28 +27,24 @@ class DatabaseSeeder extends Seeder
             'votes' => [
                 'id'=>1,
                 'title' => 'Votes Package',
-                'description' => view('packages.votes'),
                 'url' => 'https://github.com/laraveldesign/votes',
                 'image' => 'votes'
             ],
             'likes' => [
                 'id'=>2,
                 'title' => 'Likes Button',
-                'description' => view('packages.likes'),
                 'url' => 'https://github.com/laraveldesign/like-button',
                 'image' => 'likes'
             ],
             'comments' => [
                 'id'=>3,
                 'title' => 'Comments Package',
-                'description' => view('packages.comments'),
                 'url' => 'https://github.com/laraveldesign/comments',
                 'image' => 'comments'
             ],
             'contact' => [
                 'id'=>4,
                 'title' => 'Contact Form',
-                'description' => view('packages.contact-form'),
                 'url' => 'https://github.com/laraveldesign/contact-form',
                 'image' => 'contact-form'
             ]
@@ -57,7 +53,6 @@ class DatabaseSeeder extends Seeder
         foreach($packages as $key=>$package) {
             Package::create([
                 'title'=>$package['title'],
-                'description'=>$package['description'],
                 'url'=>$package['url'],
                 'image'=>$package['image']
             ]);

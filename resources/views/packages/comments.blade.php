@@ -1,3 +1,1 @@
-Stuff about the comments package:
-
-located at views/packages/comments.blade.php
+<p>This package provides your users with an interactive ajaxified commenting system.</p>

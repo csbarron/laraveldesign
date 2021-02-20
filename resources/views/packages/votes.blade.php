@@ -1,3 +1,1 @@
-Stuff about the voting package:
-
-located at views/packages/voting.blade.php
+<p>This package provides your users with an interactive star voting system.  The votes can be attached to any Laravel model.</p>

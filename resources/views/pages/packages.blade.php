@@ -56,7 +56,7 @@
                                     </span>
                                     </a>
                                 </div>
-                                <div class="mb-6">{{$package->description}}</div>
+                                <div class="mb-6 mt-6 p-4 rounded-xl bg-gray-100">{{view("packages.".$package->image)}}</div>
                                 <livewire:comments  :key="time().$package->id" :model="$package"></livewire:comments>
                             </x-slot>
                         </x-two-column>
