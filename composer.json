@@ -68,23 +68,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "laraveldesign/comments"
-        },
-        {
-            "type": "path",
-            "url": "laraveldesign/contact-form"
-        },
-        {
-            "type": "path",
-            "url": "laraveldesign/like-button"
-        },
-        {
-            "type": "path",
-            "url": "laraveldesign/votes"
-        }
-    ]
+    }
 }
