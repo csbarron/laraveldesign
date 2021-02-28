@@ -1,11 +1,11 @@
 <x-app-layout>
-    <div class="py-12 bg-gray-100">
+    <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-gray-100 overflow-hidden sm:rounded-lg p-8">
+            <div class="overflow-hidden sm:rounded-lg p-8">
                 <h3 class="text-center text-2xl md:text-6xl font-bold mb-4">Free Laravel Packages</h3>
                 <p class="text-center text-xl md:text-4xl font-bold mb-10" >These packages are free to use and modify as you see fit.</p>
-                <div class="bg-white p-4 rounded-xl">
-                    @foreach($packages as $package)
+                @foreach($packages as $package)
+                    <div class="mb-6 glass shadow-lg rounded-xl">
                         <x-two-column>
                             <x-slot name="left">
                                 <h2 class="text-4xl text-black font-bold mb-4">{{$package->title}}</h2>
@@ -60,9 +60,9 @@
                                 <livewire:comments  :key="time().$package->id" :model="$package"></livewire:comments>
                             </x-slot>
                         </x-two-column>
-                        <hr/>
-                    @endforeach
-                </div>
+                    </div>
+
+                @endforeach
 
             </div>
         </div>

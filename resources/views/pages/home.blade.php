@@ -1,8 +1,8 @@
 <x-app-layout>
-    <div class="py-12 bg-gray-100">
+    <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-gray-100 overflow-hidden sm:rounded-lg p-8">
-                <div class="bg-white p-4 rounded-xl">
+            <div class="overflow-hidden sm:rounded-lg p-8">
+                <div class="glass p-4 rounded-xl">
                     <x-two-column :centered="true">
                         <x-slot name="left">
                             <img src="/img/laraveldesign.jpg" class="w-full rounded-full"/>
